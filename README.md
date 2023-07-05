@@ -1,4 +1,4 @@
-# Senior Data Analyst
+# Dheeraj Kusboori
 Data-Driven Innovation | Transforming Information into Intelligence
 
 
