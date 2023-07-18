@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+		<title>Dheeraj Kusboori Portfolio</title>
+		<meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/dcd2d96fa5.js" crossorigin="anonymous"></script>
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+		<!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
+        <style>
+            #text-rotator div {
+                display: none;
+            }
+        </style>
+	</head>
+	<body> 
+        <div id="header">
+            <div class="container">
+                <nav id="navbar">
+                    <!-- <img  class="logo" src="images/logo2.png"  alt="logo" height="100" width="300"> -->
+                    <ul id="sidemenu">
+                        <li><a href="#header-content"> Home</a></li>
+                        <li><a href="#about"> About Me</a></li>
+                        <li><a href="#portfolio"> My Work</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div id="header-content">     
+                    <div class="header-text">
+                        <h1 class="center-text"><span>Dheeraj Kusboori</span></h1>
+                        <!-- <p class="center-text">Data Analyst | Data Scientist</p> -->
+                        <h3 id="text-rotator">
+                            <div>Data Science Enthusiast</div>
+                            <div>Data Analyst</div>
+                            <div>Python Developer</div>
+                            <div>Data Engineer</div>
+                        </h3>
+                        <div class="center-arrow">
+                            <a href="#about"><i class="fa-solid fa-angle-down fa-bounce fa-sm" style="color:#ff004f;"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="section">
+            <div class="section-spacer"></div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div> -->
+                    <div class="about-col-1">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p>Hello, I'm Dheeraj Kusboori, a Senior Data Analyst with extensive expertise in a variety of data domains. I have a Masters Degree in Data Science and a Bachelors Degree in Computer Science, equipping me with a solid foundation in computing and advanced knowledge in extracting meaningful insights from data.
+
+                            <br><br>My professional skills lie heavily in Predictive Analysis, Machine Learning, Data Visualization, ETL processes, MySQL, and BigQuery. My passion for turning raw data into insightful visuals has led me to become proficient in Data Visualization. I am driven by the conviction that data, when correctly processed and interpreted, can solve many of our contemporary challenges and pave the way to future innovation.
+                            
+                            <br><br>Having worked on several complex data analytics projects, I am always seeking out challenges that will allow me to continue honing my skills. A notable accomplishment that I'm particularly proud of is the successful publication of my thesis, "Earthquake Prediction using Machine Learning". This pioneering work underscores my ability to use data science methodologies to predict and manage natural disasters, demonstrating my commitment to leverage technology for the benefit of society.
+                            
+                            <br><br>Now, I am aspiring to transition into a Data Scientist or Data Engineer role, where I can take on more responsibility and contribute at a higher strategic level. My aim is to leverage the power of data science to address critical business challenges and deliver innovative solutions.
+                            
+                            <br><br>I am excited about the possibility of collaborating with like-minded professionals, and look forward to discussing how my skills and interests align with your (business) needs.</p><br>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <div class="skill-column-wrapper">
+                                    <div class="skill-column">
+                                        <h2>Python</h2>
+                                        <div class="skill-container">
+                                            <p>Machine Learning: 4</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>Neural Networks: 4</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>Natural Language Processing: 4</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-column">
+                                        <h2>Data Analysis & Visualization</h2>
+                                        <div class="skill-container">
+                                            <p>Predictive Modeling: 5</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>Time Series Analysis: 5</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>Data Visualization with Tableau: 4</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-column">
+                                        <h2>Database & ETL</h2>
+                                        <div class="skill-container">
+                                            <p>MySQL & MS SQL Server: 5</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>BigQuery: 4</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-container">
+                                            <p>Teradata: 5</p>
+                                            <div class="skill-bar-container">
+                                                <div class="skill-bar" style="width: 100%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>May, 2023 - Current</span><br>Senior Data Analyst</li><br>
+                                    <li><span>Sep, 2022 - May, 2023</span><br>Graduate Assistant</li><br>
+                                    <li><span>Aug, 2017 - Oct, 2019</span><br>Data Analyst</li><br>
+                                    <li><span>Oct, 2011 - Aug, 2017</span><br>Data Analyst</li><br>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>May, 2023</span><br>Master in Data Science</li><br>
+                                    <li><span>May, 2009</span><br>Bachelor in Computer Science</li><br>
+                                    
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div id="portfolio" class="section">
+            <div class="section-spacer"></div>
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/earthquakes.jpeg">
+                        <div class="layer">
+                            <h3>Earthquake Prediction using Machine Learning Techniques</h3>
+                            <p> The earthquake catalogs of three high seismic regions were chosen for this project. Two models: 
+                                Classification, to categorize magnitudes & Regression, determine the actual magnitude, were deployed.
+                                Both the models were able to achieve highly accurate results.  </p>
+                                <a href="https://github.com/Dkusboori/DJ_Portfolio/tree/my_projects/projects/Earthquake_Prediction"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/NLP.png">
+                        <div class="layer">
+                            <h3>Natural Language Processing</h3>
+                            <p>Airline customer tweets were analyzed using various machine learning models.</p>
+                            <a href="https://github.com/Dkusboori/DJ_Portfolio/tree/my_projects/projects/NLP"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tableau.png">
+                        <div class="layer">
+                            <h3>London Bike Ride Analysis</h3>
+                            <p></p>
+                            <a href="https://github.com/Dkusboori/DJ_Portfolio/tree/my_projects/projects/Tableau"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#portfolio" class="btn">More Projects to Follow</a>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <div class="section-spacer"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>dheeraj.kusboori@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>985 276 0639</p>
+                        <div class="social-icons">
+                            <p>Follow Me:</p><br>
+                            <a href="https://www.linkedin.com/in/dheerajkusboori"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Dkusboori/DJ_Portfolio/tree/my_projects/projects"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                        <a href="images/resume.pdf" class="btn btn2">View Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id = 'msg'></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; Dheeraj Kusboori | 2023</p>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(event, tabname) {
+                for (var tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for (var tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            var openButton = document.querySelector('.fa-solid.fa-bars');
+            var closeButton = document.querySelector('.fa-solid.fa-xmark');
+        
+            openButton.addEventListener('click', openmenu);
+            closeButton.addEventListener('click', closemenu);
+        
+            function openmenu() {
+                console.log("openmenu function was called");
+                if (sidemenu.style.right !== "0") {
+                    sidemenu.style.right = "0";
+                }
+            }
+        
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+                $(document).ready(function() {
+                    var currentIndex = 0;
+                    var items = $('#text-rotator div');
+                    var itemAmt = items.length;
+                
+                    function cycleItems() {
+                        var item = $('#text-rotator div').eq(currentIndex);
+                        items.hide();
+                        item.fadeIn(2000);
+                    }
+                
+                    cycleItems();
+                
+                    setInterval(function() {
+                        $('#text-rotator div').eq(currentIndex).fadeOut(2000, function() {
+                            currentIndex += 1;
+                            if (currentIndex > itemAmt - 1) {
+                                currentIndex = 0;
+                            }
+                            cycleItems();
+                        });
+                    }, 2000);
+                });
+        </script>
+        <script>
+                $(document).ready(function(){
+                    $('a.scroll-link').on('click', function(e){
+                        e.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: $($(this).attr('href')).offset().top
+                        }, 500, 'linear');
+                    });
+                });
+        </script>
+        <script>
+                $(document).ready(function(){
+                    $("a[href='#header-content']").on('click', function(e) {
+                        e.preventDefault();
+                        $('html, body').animate({scrollTop:0}, '300');
+                    });
+                });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(".tab-links").click(function() {
+                    var tabname = $(this).attr("onclick").split("'")[1];
+                    opentab(event, tabname);
+                });
+            });
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxXEmTFVXQpP2ER7VXYjfe7T37YYYCvwNPoHvaPK67_IygsfEiUqbmZkQfzygkLHuhaXw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById('msg')
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {msg.innerHTML="Thank you for contacting!"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                }, 5000)
+                form.reset()                    
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+            
+            
+        
+        
+        
+    
+    </body> 
+
+
+</html> 
