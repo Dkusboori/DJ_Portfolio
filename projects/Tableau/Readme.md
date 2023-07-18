@@ -1,6 +1,6 @@
 ## You can view my Tableau Public Dashboards using the below links
 
-1.  <a href='https://public.tableau.com/views/London_Bike_Rides_Visualization/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link'> London Bike Rides Analysis </a>
+1.  <a href='https://public.tableau.com/views/London_Bike_Rides_Visualization/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link'> London Bike Rides Analysis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
 <img src="https://github.com/Dkusboori/DJ_Portfolio/blob/my_projects/projects/Tableau/london-bike-rides.png?raw=true">
 
 <br>
